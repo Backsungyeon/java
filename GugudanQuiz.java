@@ -1,6 +1,5 @@
 package java2024;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class GugudanQuiz {
@@ -13,8 +12,8 @@ public class GugudanQuiz {
         System.out.println("***** 구구단을 맞추는 퀴즈입니다. *****");
 
         while (count < 3) {
-            int num1 = random.nextInt(9) + 1; 
-            int num2 = random.nextInt(9) + 1;
+            int num1 = (int)(Math.random() * 9 + 1);
+            int num2 = (int)(Math.random() * 9 + 1);
             int correct = num1 * num2;
             
             System.out.print(num1 + " x " + num2 + " = ");
