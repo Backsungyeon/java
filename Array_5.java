@@ -31,5 +31,6 @@ public class Array_5 {
         	System.out.print(array[i] + " ");
         }
         System.out.println("\n평균은 " + (sum / array.length));
+        scanner.close();
     }
 }
