@@ -29,6 +29,6 @@ public class Array_3 {
             }
         }
 
-        scanner.close(); // Scanner 자원 해제
+        scanner.close();
     }
 }
