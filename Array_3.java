@@ -7,9 +7,9 @@ public class Array_3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("양의 정수 10개 입력>>");
-        int[] array = new int[9];
+        int[] array = new int[10];
 
-        for (int i = 0; i < 9; i++) {
+        for (int i = 0; i < 10; i++) {
             array[i] = scanner.nextInt();
         }
 
