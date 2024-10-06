@@ -27,8 +27,8 @@ class Rectangle {
 
 public class CreateClass4 {
     public static void main(String[] args) {
-        Rectangle a = new Rectangle(3, 3, 6, 6);
-        Rectangle b = new Rectangle(4, 4, 2, 3);
+        Rectangle a = new Rectangle(3, 3, 6, 6); // (3,3) 점에서 6x6 크기의 사각형
+        Rectangle b = new Rectangle(4, 4, 2, 3); // (4,4) 점에서 2x3 크기의 사각형
 
         a.show();
         if (a.isSquare()) {
