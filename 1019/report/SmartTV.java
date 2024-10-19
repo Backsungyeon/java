@@ -15,9 +15,9 @@ class ColorTV2 extends TV3{
 		System.out.println(super.getSize() + "인치 " + color + "컬러");
 	}
 }
-public class IPTV extends ColorTV2{
+public class SmartTV extends ColorTV2{
 	private String address;
-	public IPTV(String address, int size, int color) {
+	public SmartTV(String address, int size, int color) {
 		super(size, color);
 		this.address = address;
 	}
@@ -26,7 +26,7 @@ public class IPTV extends ColorTV2{
 		super.printProperty();
 	}
 	public static void main(String[] args) {
-		IPTV iptv = new IPTV("192.168.0.5", 77, 20000000);
-		iptv.printProperty();
+		SmartTV smartTv = new SmartTV("192.168.0.5", 77, 20000000);
+		smartTv.printProperty();
 	}
 }
