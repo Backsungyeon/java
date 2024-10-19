@@ -23,7 +23,7 @@ public class ColorPoint extends Point{
 		return color + "색의 (" + super.getX() + ", " + super.getY() + ")의 점";
 	}
 	public static void main(String[] args) {
-		ColorPoint cp = new ColorPoint(5, 5, "YELLOW");
+		ColorPoint cp = new ColorPoint(5, 5, "RED");
 		cp.setXY(10, 20);
 		cp.setColor("BLUE");
 		String str = cp.toString();
